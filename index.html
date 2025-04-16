@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+
+    <title>Validando formulários com js</title>
+</head>
+<body>
+
+<form action="" id="Formulário">
+
+<h1>Informações Pessoais</h1>
+
+<label for="nome">Nome completo:</label>
+<input type="text" name="nome" id="nome" required>
+<br>
+<br>
+
+<label for="data">Data de nascimento:</label>
+<input type="date" name="data" id="data">
+<br>
+<br>
+
+<label for="idade">Idade:</label>
+<input type="number" name="idade" id="idade">
+<br>
+<br>
+
+<label for="sexo">Sexo: </label>
+<input type="radio" name="sex">
+<label for="masc">Homem</label>
+<input type="radio" name="sex">
+<label for="fem">Mulher</label>
+<input type="radio" name="sex">
+<label for="outro">Outro</label>
+<br>
+<br>
+
+<label for="numero">Número de celular:</label>
+<input type="text" name="numero" id="numero">
+<br>
+<br>
+
+<label for="email">E-mail:</label>
+<input type="email" name="email" id="email">
+<br>
+<br>
+
+<label for="endereco">Endereço:</label>
+<input type="text" name="endereco" id="endereco">
+<br>
+<br>
+
+<label for="cidade">Cidade:</label>
+<input type="text" name="cidade" id="cidade">
+<br>
+<br>
+
+<label for="estado">Estado:</label>
+<input type="text" name="estado" id="estado">
+<br>
+<br>
+
+<label for="cep">CEP:</label>
+<input type="text" name="cep" id="cep">
+<br>
+<br>
+
+<h1>Preferências e Interesses</h1>
+
+<label for="area">Áreas de interesse profissional (ex: marketing, tecnologia, saúde, educação):</label>
+<input type="text" name="area" id="area">
+<br>
+<br>
+
+<label for="lazer">Hobbies e atividades de lazer (ex: esportes, leitura, viagens, artesanato):</label>
+<input type="text" name="lazer" id="lazer">
+<br>
+<br>
+
+<label for="musica">Gêneros de música favoritos (ex: rock, pop, jazz, clássica):</label>
+<input type="text" name="musica" id="musica">
+<br>
+<br>
+
+<label for="filme">Tipos de filmes ou séries preferidos (ex: ação, comédia, drama, documentário):</label>
+<input type="text" name="filme" id="filme">
+<br>
+<br>
+
+<label for="livro">Livros ou autores favoritos (ex: ficção, não-ficção, clássicos):</label>
+<input type="text" name="livro" id="livro">
+<br>
+<br>
+
+<label for="cor">Cor favorita:</label>
+<input type="color" name="cor" id="cor">
+<br>
+<br>
+
+<label for="alimentacao">Preferências alimentares (ex: carnívoro, vegano, sem glúten):</label>
+<input type="text" name="alimentacao" id="alimentacao">
+<br>
+<br>
+
+<label for="esporte">Modalidades esportivas praticadas ou assistidas (ex: futebol, basquete, yoga):</label>
+<input type="text" name="esporte" id="esporte">
+<br>
+<br>
+
+<label for="tecnologia">Interesse em eventos ou workshops (ex: tecnologia, desenvolvimento pessoal, arte):</label>
+<input type="text" name="tecnologia" id="tecnologia">
+<br>
+<br>
+
+<label for="lugar">Preferências de viagem (ex: praia, montanha, cidades históricas, aventura):</label>
+<input type="text" name="lugar" id="lugar">
+<br>
+<br>
+
+<label for="avaliacao">Avaliação (1 a 5):</label>
+<input type="range" id="avaliacao" name="avaliacao" min="1" max="999999">
+<br>
+<br>
+
+<br>
+
+<button type="button" onclick="validarFormulario()">Enviar</button>
+
+</form>
+
+</body>
+</html>
